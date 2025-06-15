@@ -1,19 +1,3 @@
-"""
-🤚 Advanced Finger Gesture LED Simulator
-Created by: Bhushan
-
-A sophisticated computer vision application that detects individual finger positions
-using MediaPipe and controls virtual LED bulbs in real-time. Each finger corresponds
-to one LED bulb - raise a finger to turn on its LED, close it to turn off.
-
-Features:
-- Real-time hand tracking and finger detection
-- Individual finger control for 5 LED bulbs
-- Professional GUI with live camera feed
-- Sound feedback for finger state changes
-- Confidence indicators and detection info
-- Robust finger detection that works from both open and closed hand positions
-"""
 
 import tkinter as tk
 from tkinter import ttk, messagebox
